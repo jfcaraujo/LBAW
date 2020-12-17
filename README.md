@@ -23,7 +23,7 @@ docker-compose up
 
 
 ### Seed the database and start development server
-
+Requires php, php7.2-pgsql and docker (for ubuntu)
 ```
 php artisan db:seed
 ```
